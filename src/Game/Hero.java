@@ -16,6 +16,10 @@ abstract class Hero {
         this.addHeal = addHeal;
     }
 
+    public Hero(String name){
+        this.name = name;
+    }
+
     abstract void hit(Hero hero);
 
     abstract void healing(Hero hero);

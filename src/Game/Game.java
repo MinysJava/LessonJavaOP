@@ -7,9 +7,9 @@ class Game {
 
 
 
-        Hero[] team1 = new Hero[]{new Warrior(250, "Тигрил", 50, 0)
-                , new Assasin(150, "Акали", 70, 0)
-                , new Doctor(120, "Жанна", 0, 60)};
+        Team[] team1 = new Team[]{new Warrior("Тигрил")
+                , new Assasin( "Акали")
+                , new Doctor("Жанна")};
 
         Hero[] team2 = new Hero[]{new Warrior(290, "Минотавр", 60, 0)
                 , new Assasin(160, "Джинкс", 90, 0)

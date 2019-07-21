@@ -2,9 +2,16 @@ package Game;
 
 class Warrior extends Hero {
 
-    public Warrior(int health, String type, int damage, int addHeal) {
-        super(health, type, damage, addHeal);
+    protected int health = 250;
+    protected String name;
+    protected int damage = 50;
+    protected int addHeal = 0;
+
+    public Warrior(int health, String name, int damage, int addHeal) {
+        super(health, name, damage, addHeal);
     }
+
+    public Warrior (String name){ super(name);}
 
     @Override
     void hit(Hero hero) {
