@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7b57b61-36cf-4841-9202-e1f30523eb65" name="Default" comment="Домашнее задание №2&#10;Упрожнение №1 Enum">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a7b57b61-36cf-4841-9202-e1f30523eb65" name="Default" comment="Домашнее задание №2&#10;Упрожнение №1 Enum" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +17,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Game/Hero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
+            <state relative-caret-position="663">
               <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
             </state>
           </provider>
@@ -108,7 +106,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="464" />
     <option name="y" value="95" />
     <option name="width" value="1269" />
@@ -331,8 +329,7 @@
     <option name="totallyTimeSpent" value="11109000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="464" y="95" width="1269" height="949" extended-state="1" />
-    <editor active="true" />
+    <frame x="464" y="95" width="1269" height="949" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16873449" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -343,7 +340,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3002451" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3002451" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -561,7 +558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Game/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
+        <state relative-caret-position="663">
           <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
         </state>
       </provider>
