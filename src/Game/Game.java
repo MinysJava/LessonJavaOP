@@ -7,7 +7,7 @@ class Game {
 
 
 
-        Team[] team1 = new Team[]{new Warrior("Тигрил")
+        Hero[] team1 = new Hero[]{new Warrior("Тигрил")
                 , new Assasin( "Акали")
                 , new Doctor("Жанна")};
 
