@@ -1,6 +1,7 @@
 package Lesson_6.sample;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
@@ -17,11 +18,14 @@ public class Server {
             socket = server.accept();
             System.out.println("Клиент подключился!");
 
-            Scanner sc = new Scanner(socket.getInputStream());
+            Scanner in = new Scanner(socket.getInputStream());
+            PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 
             while (true){
-                String str = sc.nextLine();
+                String str = in.nextLine();
                 System.out.println("Client " + str);
+
+                out.println("echo: " + str);
             }
         } catch (IOException e) {
             e.printStackTrace();
