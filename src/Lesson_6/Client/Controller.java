@@ -29,11 +29,12 @@ public class Controller implements Initializable {
     public void sendMsg() {
         try {
             out.writeUTF(textField.getText());
+            textField.clear();
+            textField.requestFocus();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        textField.clear();
-        textField.requestFocus();
+
     }
 
     @Override
@@ -65,6 +66,5 @@ public class Controller implements Initializable {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }
