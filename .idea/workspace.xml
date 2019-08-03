@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="635d7c9a-8f61-4834-93dd-b795339e2242" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_6/Client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/Client/Controller.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lesson_6/sample/Server.java">
+        <entry file="file://$PROJECT_DIR$/src/Lesson_6/Server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+            <state relative-caret-position="476">
+              <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,28 +30,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lesson_6/css/Style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lesson_6/sample/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lesson_6/sample/Controller.java">
+        <entry file="file://$PROJECT_DIR$/src/Lesson_6/Client/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="20" selection-start-column="20" selection-end-column="20" />
@@ -62,11 +42,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lesson_6/sample/sample.fxml">
+        <entry file="file://$PROJECT_DIR$/src/Lesson_6/Client/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lesson_6/Client/sample.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="221">
+              <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -97,11 +89,15 @@
         <option value="$PROJECT_DIR$/src/Lesson_6/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/Lesson_6/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/Lesson_6/sample/Server.java" />
+        <option value="$PROJECT_DIR$/src/Lesson_6/client/Main.java" />
+        <option value="$PROJECT_DIR$/src/Lesson_6/Client/Main.java" />
+        <option value="$PROJECT_DIR$/src/Lesson_6/Server/Server.java" />
+        <option value="$PROJECT_DIR$/src/Lesson_6/Client/Controller.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="394" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="204" />
     <option name="y" value="116" />
     <option name="width" value="1577" />
     <option name="height" value="990" />
@@ -143,6 +139,13 @@
               <item name="LessonJavaOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Lesson_6" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LessonJavaOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LessonJavaOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson_6" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -150,7 +153,7 @@
               <item name="LessonJavaOP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Lesson_6" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LessonJavaOP" type="b2602c69:ProjectViewProjectNode" />
@@ -182,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Server">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CheckPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson3.CheckPassword" />
       <module name="14072019" />
@@ -196,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPhone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson3.MainPhone" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_6.Client.Main" />
       <module name="14072019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
+          <option name="PATTERN" value="Lesson_6.Client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,8 +212,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MassWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson3.MassWord" />
+    <configuration name="MainPhone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson3.MainPhone" />
       <module name="14072019" />
       <extension name="coverage">
         <pattern>
@@ -250,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.CheckPassword" />
         <item itemvalue="Application.MainPhone" />
         <item itemvalue="Application.Phonebook" />
-        <item itemvalue="Application.MassWord" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +272,7 @@
       <option name="presentableId" value="Default" />
       <updated>1563811045399</updated>
       <workItem from="1564770816424" duration="2024000" />
-      <workItem from="1564811383260" duration="605000" />
+      <workItem from="1564811383260" duration="2800000" />
     </task>
     <task id="LOCAL-00001" summary="Домашнее задание №3&#10;Упражнение №1 и №2">
       <created>1563823681733</created>
@@ -306,17 +309,31 @@
       <option name="project" value="LOCAL" />
       <updated>1564772740189</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add packge: Server, Client">
+      <created>1564812180073</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564812180074</updated>
+    </task>
+    <task id="LOCAL-00007" summary="доработка клиента на отправку и прием сообщений">
+      <created>1564813010799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564813010799</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2629000" />
+    <option name="totallyTimeSpent" value="4824000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="394" y="116" width="1577" height="990" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25972313" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -325,7 +342,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4084014" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33557048" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,7 +413,9 @@
     <MESSAGE value="create Server" />
     <MESSAGE value="create EchoServer" />
     <MESSAGE value="add correct exit" />
-    <option name="LAST_COMMIT_MESSAGE" value="add correct exit" />
+    <MESSAGE value="add packge: Server, Client" />
+    <MESSAGE value="доработка клиента на отправку и прием сообщений" />
+    <option name="LAST_COMMIT_MESSAGE" value="доработка клиента на отправку и прием сообщений" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -408,16 +427,6 @@
     <entry file="file://$PROJECT_DIR$/src/Lesson3/Phonebook.java" />
     <entry file="file://$PROJECT_DIR$/src/Lesson3/MainPhone.java" />
     <entry file="file://$PROJECT_DIR$/src/Lesson3/CheckPassword.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lesson_6/sample/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lesson_6/css/Style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -425,31 +434,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lesson_6/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lesson_6/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lesson_6/sample/sample.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Lesson_6/Client/sample.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="221">
+          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson_6/Client/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson_6/Server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson_6/Client/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
