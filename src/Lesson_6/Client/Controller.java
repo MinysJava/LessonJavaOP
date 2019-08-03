@@ -27,7 +27,11 @@ public class Controller implements Initializable {
     final int PORT = 55555;
 
     public void sendMsg() {
-        textArea.appendText(textField.getText() + "\n");
+        try {
+            out.writeUTF(textField.getText());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         textField.clear();
         textField.requestFocus();
     }
@@ -42,25 +46,22 @@ public class Controller implements Initializable {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    while (true){
-                        try {
+                    try {
+                        while (true) {
                             String str = in.readUTF();
-                            System.out.println(str);
+                            textArea.appendText(str + "\n");
+                        }
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    } finally {
+                        try {
+                            socket.close();
                         } catch (IOException e) {
                             e.printStackTrace();
-                        } finally {
-                            try {
-                                socket.close();
-                            } catch (IOException e) {
-                                e.printStackTrace();
-                            }
                         }
                     }
                 }
             }).start();
-
-
-
         } catch (IOException e) {
             e.printStackTrace();
         }
