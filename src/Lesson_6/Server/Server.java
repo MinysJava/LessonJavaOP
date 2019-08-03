@@ -1,5 +1,7 @@
 package Lesson_6.Server;
 
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
@@ -18,15 +20,14 @@ public class Server {
             socket = server.accept();
             System.out.println("Клиент подключился!");
 
-            Scanner in = new Scanner(socket.getInputStream());
-            PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+            DataInputStream in = new DataInputStream(socket.getInputStream());
+            DataOutputStream out = new DataOutputStream(socket.getOutputStream());
 
             while (true){
-                String str = in.nextLine();
+                String str = in.readUTF();
                 System.out.println("Client " + str);
                 if (str.equals("/end")) break;
-
-                out.println("echo: " + str);
+                out.writeUTF(str);
             }
         } catch (IOException e) {
             e.printStackTrace();
