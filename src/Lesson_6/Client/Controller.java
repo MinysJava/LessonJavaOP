@@ -1,4 +1,4 @@
-package Lesson_6.sample;
+package Lesson_6.Client;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;

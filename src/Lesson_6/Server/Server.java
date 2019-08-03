@@ -1,4 +1,4 @@
-package Lesson_6.sample;
+package Lesson_6.Server;
 
 import java.io.IOException;
 import java.io.PrintWriter;
