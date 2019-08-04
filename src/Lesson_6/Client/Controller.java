@@ -48,7 +48,7 @@ public class Controller implements Initializable {
                 @Override
                 public void run() {
                     try {
-                        while (true) {
+                        while (!socket.isClosed()) {
                             String str = in.readUTF();
                             textArea.appendText(str + "\n");
                         }

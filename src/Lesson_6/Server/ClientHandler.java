@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.net.Socket;
 
 public class ClientHandler {
-    private Socket socket;
+    Socket socket;
     private DataOutputStream out;
     private DataInputStream in;
     private Server server;
@@ -22,7 +22,7 @@ public class ClientHandler {
                 @Override
                 public void run() {
                     try {
-                        while (true) {
+                        while (!socket.isClosed()) {
                             String str = in.readUTF();
                             System.out.println("Client " + str);
                             if (str.equals("/end")) {
