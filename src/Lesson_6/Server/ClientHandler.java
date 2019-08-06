@@ -1,10 +1,5 @@
 package Lesson_6.Server;
 
-import Lesson_6.Client.Controller;
-import Lesson_6.Client.Main;
-import javafx.event.EventHandler;
-import javafx.stage.WindowEvent;
-
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -55,9 +50,9 @@ public class ClientHandler {
                             server.broadcastMsg(nick + ": " + str);
                         }
                     } catch (IOException e) {
-                        e.printStackTrace();
+                            e.printStackTrace();
                     } catch (SQLException e) {
-                        e.printStackTrace();
+                            e.printStackTrace();
                     } finally {
                         try {
                             in.close();

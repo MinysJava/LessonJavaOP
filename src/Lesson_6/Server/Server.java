@@ -20,8 +20,6 @@ public class Server {
 
         try {
             AuthService.connect();
-//            String test = AuthService.getNickByLoginAndPass("login1", "pass1");
-//            System.out.println(test);
             server = new ServerSocket(8189);
             System.out.println("Сервер запущен!");
 
