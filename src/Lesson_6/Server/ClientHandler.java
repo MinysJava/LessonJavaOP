@@ -51,7 +51,7 @@ public class ClientHandler {
                                     sendMsg("Пользователь не в сети.");
                                 }
                             }else {
-                                server.broadcastMsg(nick + "br: " + str);   // если нет то отправляем сообщение всем
+                                server.broadcastMsg(nick + "br: " + str);   // если нет ключа /w то отправляем сообщение всем
                             }
                             if (str.equals("/end")) {
                                 out.writeUTF("/serverClosed");
