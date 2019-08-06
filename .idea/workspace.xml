@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="635d7c9a-8f61-4834-93dd-b795339e2242" name="Default Changelist" comment="lj,fdbk">
+    <list default="true" id="635d7c9a-8f61-4834-93dd-b795339e2242" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson_6/Server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/Server/ClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson_6/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_6/Server/Server.java" afterDir="false" />
@@ -45,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/Lesson_6/Server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+              <caret line="76" column="91" selection-start-line="76" selection-start-column="91" selection-end-line="76" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lesson_6/Server/ClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+            <state relative-caret-position="323">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -340,7 +340,7 @@
       <workItem from="1564903622625" duration="9503000" />
       <workItem from="1565015328105" duration="1257000" />
       <workItem from="1565099223064" duration="6086000" />
-      <workItem from="1565106720064" duration="10479000" />
+      <workItem from="1565106720064" duration="13426000" />
     </task>
     <task id="LOCAL-00001" summary="Домашнее задание №3&#10;Упражнение №1 и №2">
       <created>1563823681733</created>
@@ -440,14 +440,22 @@
       <option name="project" value="LOCAL" />
       <updated>1565113616690</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Добавил приватные сообщения">
+      <created>1565117339528</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1565117339528</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41925000" />
+    <option name="totallyTimeSpent" value="44872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="239" y="92" width="1577" height="990" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27554384" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -569,7 +577,8 @@
     <MESSAGE value="подготовил классы" />
     <MESSAGE value="Добавил в Main закрытие окна клиента без исключений" />
     <MESSAGE value="косметика" />
-    <option name="LAST_COMMIT_MESSAGE" value="косметика" />
+    <MESSAGE value="Добавил приватные сообщения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил приватные сообщения" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -584,13 +593,6 @@
     <entry file="file://$PROJECT_DIR$/src/Lesson_6/css/Style.css" />
     <entry file="file://$PROJECT_DIR$/udb.db">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lesson_6/Server/AuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lesson_6/Client/sample.fxml">
       <provider selected="true" editor-type-id="text-editor">
@@ -625,10 +627,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson_6/Server/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lesson_6/Server/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        <state relative-caret-position="323">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -638,7 +647,7 @@
     <entry file="file://$PROJECT_DIR$/src/Lesson_6/Server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+          <caret line="76" column="91" selection-start-line="76" selection-start-column="91" selection-end-line="76" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -43,10 +43,15 @@ public class ClientHandler {
                         while (true) {
                             String str = in.readUTF();
                             System.out.println("Client " + str);
-                            if (str.startsWith("/w")){
-                                server.privateMsg(str, nick);
+                            if (str.startsWith("/w")){              // провряем начало строки на ключ /w
+                                String[] tokens = str.split(" ");
+                                if (server.clientOnline(tokens[2])){        // проверяем онлайн клиент или нет
+                                    server.privateMsg(str, nick);           // если да то отправляем приватное сообщение
+                                } else {
+                                    sendMsg("Пользователь не в сети.");
+                                }
                             }else {
-                                server.broadcastMsg(nick + "br: " + str);
+                                server.broadcastMsg(nick + "br: " + str);   // если нет то отправляем сообщение всем
                             }
                             if (str.equals("/end")) {
                                 out.writeUTF("/serverClosed");

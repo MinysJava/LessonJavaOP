@@ -60,16 +60,30 @@ public class Server {
         clients.remove(client);
     }
 
-    public void privateMsg(String msg, String nick) {
-        if (msg.startsWith("/w")) {
-            String[] tokens = msg.split(" ");
+    public void privateMsg(String msg, String nick) {       // метод приватного сообщения
+            String[] tokens = msg.split(" ");        // разбиваем сообщения на слова
             for (ClientHandler o: clients) {
-                if (o.nick.equals(tokens[1])){
-                    msg = msg.replaceAll("/w " + o.nick, "");
-                    o.sendMsg(nick + ": " + msg);
+                if (o.nick.equals(tokens[1])){              // ищем сопадение по нику
+                    String messege = null;
+                   for (int i = 2; i < tokens.length; i++){     // склеиваем сообщение для отправки без служебной информации
+                       messege = messege + tokens[i];
+                   }
+                    o.sendMsg(nick + ": " + msg);       // отправляем сообщение
+                    break;
                 }
-//                else {this.Controller.sendMsg ("Неверный логин/пароль!");}
+            }
+    }
+
+    public boolean clientOnline(String nick){       // проверка онлайн пользователь или нет
+        boolean result = false;
+        for (ClientHandler o: clients) {
+            if (o.nick.equals(nick)) {
+                result = true;
+                break;
             }
         }
+        return result;
     }
+
 }
+
