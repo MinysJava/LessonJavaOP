@@ -64,11 +64,11 @@ public class Server {
             String[] tokens = msg.split(" ");        // разбиваем сообщения на слова
             for (ClientHandler o: clients) {
                 if (o.nick.equals(tokens[1])){              // ищем сопадение по нику
-                    String messege = null;
+                    String messege = "";
                    for (int i = 2; i < tokens.length; i++){     // склеиваем сообщение для отправки без служебной информации
                        messege = messege + tokens[i];
                    }
-                    o.sendMsg(nick + ": " + msg);       // отправляем сообщение
+                    o.sendMsg(nick + ": " + messege);       // отправляем сообщение
                     break;
                 }
             }

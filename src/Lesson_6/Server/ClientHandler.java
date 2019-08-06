@@ -44,14 +44,14 @@ public class ClientHandler {
                             String str = in.readUTF();
                             System.out.println("Client " + str);
                             if (str.startsWith("/w")){              // провряем начало строки на ключ /w
-                                String[] tokens = str.split(" ");
-                                if (server.clientOnline(tokens[2])){        // проверяем онлайн клиент или нет
+                                String[] part = str.split(" ");
+                                if (server.clientOnline(part[1])){        // проверяем онлайн клиент или нет
                                     server.privateMsg(str, nick);           // если да то отправляем приватное сообщение
                                 } else {
                                     sendMsg("Пользователь не в сети.");
                                 }
                             }else {
-                                server.broadcastMsg(nick + "br: " + str);   // если нет ключа /w то отправляем сообщение всем
+                                server.broadcastMsg(nick + ": " + str);   // если нет ключа /w то отправляем сообщение всем
                             }
                             if (str.equals("/end")) {
                                 out.writeUTF("/serverClosed");
