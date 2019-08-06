@@ -60,4 +60,16 @@ public class Server {
         clients.remove(client);
     }
 
+    public void privateMsg(String msg, String nick) {
+        if (msg.startsWith("/w")) {
+            String[] tokens = msg.split(" ");
+            for (ClientHandler o: clients) {
+                if (o.nick.equals(tokens[1])){
+                    msg = msg.replaceAll("/w " + o.nick, "");
+                    o.sendMsg(nick + ": " + msg);
+                }
+//                else {this.Controller.sendMsg ("Неверный логин/пароль!");}
+            }
+        }
+    }
 }

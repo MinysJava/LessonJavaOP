@@ -11,7 +11,7 @@ public class ClientHandler {
     private DataOutputStream out;
     private DataInputStream in;
     private Server server;
-    private String nick;
+    public String nick;
 
     public ClientHandler(Server server, Socket socket) {
         try {
@@ -43,11 +43,15 @@ public class ClientHandler {
                         while (true) {
                             String str = in.readUTF();
                             System.out.println("Client " + str);
+                            if (str.startsWith("/w")){
+                                server.privateMsg(str, nick);
+                            }else {
+                                server.broadcastMsg(nick + "br: " + str);
+                            }
                             if (str.equals("/end")) {
                                 out.writeUTF("/serverClosed");
                                 break;
                             }
-                            server.broadcastMsg(nick + ": " + str);
                         }
                     } catch (IOException e) {
                             e.printStackTrace();
@@ -78,6 +82,11 @@ public class ClientHandler {
             e.printStackTrace();
         }
     }
+
+//    private void privateMsg(String str) {
+//        String[] tokens = str.split(" ");
+//
+//    }
 
     public void sendMsg(String msg) {
         try {
