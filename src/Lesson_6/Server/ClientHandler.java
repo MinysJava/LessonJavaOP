@@ -1,5 +1,10 @@
 package Lesson_6.Server;
 
+import Lesson_6.Client.Controller;
+import Lesson_6.Client.Main;
+import javafx.event.EventHandler;
+import javafx.stage.WindowEvent;
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;

@@ -1,6 +1,7 @@
 package Lesson_6.Client;
 
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -8,6 +9,7 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
+import javafx.stage.WindowEvent;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -27,9 +29,9 @@ public class Controller {
     @FXML
     Button btn1;
 
-    Socket socket;
+    static Socket socket;
     DataInputStream in;
-    DataOutputStream out;
+    static DataOutputStream out;
 
     @FXML
     HBox bottomPanel;
@@ -131,4 +133,5 @@ public class Controller {
             e.printStackTrace();
         }
     }
+
 }
